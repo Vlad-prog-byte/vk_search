@@ -6,7 +6,6 @@ import "./style.css";
 
 export function SearchResults() {
   const { users } = useContext(SearchContext);
-
   return (
     <div className="usersList">
       {users.map((user) => (
